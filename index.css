@@ -2,7 +2,10 @@ body {
     font-family: Arial;
     color: white;
   }
-  
+  top{
+    margin: 0px;
+    padding: 0px;
+  }
   .split {
     height: 100%;
     width: 50%;
@@ -10,7 +13,6 @@ body {
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    padding-top: 20px;
   }
   
   .left {
@@ -26,7 +28,7 @@ body {
  input{
     text-align: center;
     width: 120px;
-    height: 50px;
+    height: 35px;
     text-align: center;
     justify-content: center;
     align-items: center;
