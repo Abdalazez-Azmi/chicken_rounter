@@ -88,35 +88,29 @@ const min_twini_five=()=>{
     $("#available_to_sale").attr("placeholder", qynt_of_sold);
 
 }
-let quntiti_fahem=0
 let quntiti_fahem_sold=0
 
 const add_fahem1=()=>{
-    quntiti_fahem++
-    qynt_of_sold--
-    $("#available_to_sale_fahem").attr("placeholder", quntiti_fahem);
-    $("#sold_fahem").attr("placeholder", qynt_of_sold);
+quntiti_fahem_sold++    
+    $("#sold_fahem").attr("placeholder", quntiti_fahem_sold);
     
 }
 const min_fahem1=()=>{
-    quntiti_fahem--
-    qynt_of_sold++
-    $("#available_to_sale_fahem").attr("placeholder", quntiti_fahem);
-    $("#sold_fahem").attr("placeholder", qynt_of_sold);
+  quntiti_fahem_sold--
+    $("#sold_fahem").attr("placeholder", quntiti_fahem_sold);
+    // $("#sold_fahem").attr("placeholder", qynt_of_sold);
     
 }
 
 const fivten_fahem1_add=()=>{
-    quntiti_fahem+=0.5
-    qynt_of_sold-=0.5
-    $("#available_to_sale_fahem").attr("placeholder", quntiti_fahem);
-    $("#sold_fahem").attr("placeholder", qynt_of_sold);
+  quntiti_fahem_sold+=0.5
+    $("#sold_fahem").attr("placeholder", quntiti_fahem_sold);
+    // $("#sold_fahem").attr("placeholder", qynt_of_sold);
     
 }
 const fivten_fahem1_min=()=>{
-    quntiti_fahem-=0.5
-    qynt_of_sold+=0.5
-    $("#available_to_sale_fahem").attr("placeholder", quntiti_fahem);
-    $("#sold_fahem").attr("placeholder", qynt_of_sold);
+  quntiti_fahem_sold-=0.5
+    $("#available_to_sale_fahem").attr("placeholder", quntiti_fahem_sold);
+    $("#sold_fahem").attr("placeholder", quntiti_fahem_sold);
     
 }
