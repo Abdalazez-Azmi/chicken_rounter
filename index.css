@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    color: white;
+  }
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: #111;
+  }
+  
+  .right {
+    right: 0;
+    background-color: rgb(215, 208, 208);
+  }
+  ::-ms-input-placeholder { 
+    color: red;
+  }
+ input{
+    text-align: center;
+    width: 120px;
+    height: 50px;
+ }
+
+ input::placeholder{
+    font-size: 28px;
+    color: white;
+    background-color: w;
+}
+
+input::placeholder::after{
+     font-size: 28px;
+
+ }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chicken</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <div class="split left">
+      <div class="centered">
+        <div style="font-size: 40; margin: 15px; text-align: center">
+          <h1 style="text-align: center">فحم</h1>
+          <!-- <input id="available_to_sale_fahem" disabled type="number" placeholder="المتوفر للبيع" /> -->
+          <label style="font-size: 25px;"> مباع فحم</label>
+          <br />
+          <br />
+          <input id="sold_fahem" disabled type="number" placeholder="مباع " />
+        </div>
+      </div>
+
+      <div style="text-align: center">
+        <div>
+          <label style="width: 80px; height: 50px; font-size: 28px">1</label>
+          <br />
+          <br />
+          <button onclick="add_fahem1()" style="width: 80px; height: 50px; font-size: 28px">+</button>
+          <button add_fahem1 onclick="add_fahem1()" style="width: 80px; height: 50px; font-size: 28px">-</button>
+        </div>
+        <hr />
+        <br />
+        <div>
+          <label style="width: 80px; height: 50px; font-size: 28px">
+            1/2
+          </label>
+          <br />
+          <br />
+          <button  onclick="fivten_fahem1_add()" style="width: 80px; height: 50px; font-size: 28px">+</button>
+          <button onclick="fivten_fahem1_min()" style="width: 80px; height: 50px; font-size: 28px">-</button>
+        </div>
+        <hr />
+        <br />
+      </div>
+    </div>
+
+    <div class="split right">
+      <div class="centered">
+        <div style="font-size: 40; margin: 15px; text-align: center">
+          <h1 style="text-align: center">شواية</h1>
+          <label style="font-size: 25px;background-color: rgb(127, 235, 127);padding: 15px;">المتوفر للبيع</label>
+          <br>
+          <br>
+          <input
+          id="available_to_sale"
+          
+          disabled
+          type="number"
+          placeholder="المتوفر للبيع"
+          />
+          <br />
+          <br />
+          <label style="font-size: 25px;background-color: red;padding: 15px;"> مباع</label>
+          <br />
+          <br />
+          <input      id="available_chiken_makena" disabled type="number" placeholder="مباع " />
+        </div>
+      </div>
+
+      <div style="text-align: center">
+        <div>
+          <label style="width: 80px; height: 50px; font-size: 28px">1</label>
+          <br />
+          <br />
+          <button
+            onclick="add_plus()"
+            style="width: 80px; height: 50px; font-size: 28px"
+          >
+            +
+          </button>
+          <button
+            onclick="min_plus()"
+            style="width: 80px; height: 50px; font-size: 28px"
+          >
+            -
+          </button>
+        </div>
+        <hr />
+        <br />
+        <div>
+          <label style="width: 80px; height: 50px; font-size: 28px">
+            1/2
+          </label>
+          <br />
+          <br />
+          <button
+            onclick="fivten_add()"
+            style="width: 80px; height: 50px; font-size: 28px"
+          >
+            +
+          </button>
+          <button
+            onclick="fivten_min()"
+            style="width: 80px; height: 50px; font-size: 28px"
+          >
+            -
+          </button>
+        </div>
+        <hr />
+        <br />
+        <div>
+          <label style="width: 80px; height: 50px; font-size: 28px">
+            1/4
+          </label>
+          <br />
+          <br />
+          <button onclick="twini_five()" style="width: 80px; height: 50px; font-size: 28px">+</button>
+          <button onclick="min_twini_five()"  style="width: 80px; height: 50px; font-size: 28px">-</button>
+        </div>
+        <hr <div />
+        <p style="font-size: 18px">سياخ جديدة</p>
+        <div>
+          <button
+            onclick="add_qntiti_makena6()"
+            id="qntiti_of_all_chiken6"
+            style="margin: 3px; width: 80px; height: 50px; font-size: 28px"
+          >
+            +6
+          </button>
+          <br />
+          <button
+            id="qntiti_of_all_chiken5"
+            onclick="add_qntiti_makena5()"
+            style="width: 80px; height: 50px; font-size: 28px"
+          >
+            +5
+          </button>
+          <button
+            id="qntiti_of_all_chiken1"
+            onclick="add_qntiti_makena1()"
+            style="width: 80px; height: 50px; font-size: 28px"
+          >
+            +1
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
