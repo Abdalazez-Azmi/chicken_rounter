@@ -15,29 +15,35 @@ body {
   
   .left {
     left: 0;
-    background-color: #111;
+    background-color: #212121;
   }
   
   .right {
     right: 0;
-    background-color: rgb(215, 208, 208);
+    background-color: rgb(26, 26, 26);
   }
-  ::-ms-input-placeholder { 
-    color: red;
-  }
+
  input{
     text-align: center;
     width: 120px;
     height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: white;
+
  }
 
  input::placeholder{
     font-size: 28px;
-    color: white;
+    color: rgb(42, 40, 40);
     background-color: w;
+    text-align: center;
+    justify-content: center;
+
+    align-items: center;
+
 }
 
-input::placeholder::after{
-     font-size: 28px;
 
- }
