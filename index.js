@@ -114,3 +114,31 @@ const fivten_fahem1_min=()=>{
     $("#sold_fahem").attr("placeholder", quntiti_fahem_sold);
     
 }
+
+
+const min_qntiti_makena6=()=>{
+  btn_num_of_click = Math.floor(qntiti_of_all_chiken6.innerText.slice(1));
+  qynt_of_sold -= btn_num_of_click;
+  console.log(qynt_of_sold);
+  $("#available_to_sale").attr("placeholder", qynt_of_sold);
+
+
+}
+
+const min_qntiti_makena5=()=>{
+  btn_num_of_click = Math.floor(qntiti_of_all_chiken5.innerText.slice(1));
+  qynt_of_sold -= btn_num_of_click;
+  console.log(qynt_of_sold);
+  $("#available_to_sale").attr("placeholder", qynt_of_sold);
+
+
+}
+
+const min_qntiti_makena1=()=>{
+  btn_num_of_click = Math.floor(qntiti_of_all_chiken1.innerText.slice(1));
+  qynt_of_sold -= btn_num_of_click;
+  console.log(qynt_of_sold);
+  $("#available_to_sale").attr("placeholder", qynt_of_sold);
+
+
+}
