@@ -26,6 +26,7 @@ body {
   }
 
  input{
+  border-radius: 8px;
     text-align: center;
     width: 120px;
     height: 35px;
@@ -46,6 +47,11 @@ body {
 
     align-items: center;
 
+}
+
+
+button{
+  border-radius: 8px;
 }
 
 
