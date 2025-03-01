@@ -16,7 +16,7 @@ let available_chiken_makena1 = document.getElementById(
 
 let qynt = 0;
 let qynt_of_sold = 0;
-
+let qynt_of_sold_foron =0;
 const add_qntiti_makena6 = () => {
   btn_num_of_click = Math.floor(qntiti_of_all_chiken6.innerText.slice(1));
   qynt_of_sold += btn_num_of_click;
@@ -139,6 +139,33 @@ const min_qntiti_makena1=()=>{
   qynt_of_sold -= btn_num_of_click;
   console.log(qynt_of_sold);
   $("#available_to_sale").attr("placeholder", qynt_of_sold);
+  
+  
+}
 
+
+
+
+const add_foron_chicken_one=()=>{
+  qynt_of_sold_foron++
+  $("#inp_of_chicken_foron").attr("placeholder", qynt_of_sold_foron);
+
+}
+const min_foron_chicken_one=()=>{
+  qynt_of_sold_foron--
+  $("#inp_of_chicken_foron").attr("placeholder", qynt_of_sold_foron);
+
+}
+
+
+const min_foron_chicken_half=()=>{
+  qynt_of_sold_foron-=0.5
+  $("#inp_of_chicken_foron").attr("placeholder", qynt_of_sold_foron);
+
+}
+
+const add_foron_chicken_half=()=>{
+  qynt_of_sold_foron+=0.5
+  $("#inp_of_chicken_foron").attr("placeholder", qynt_of_sold_foron);
 
 }
